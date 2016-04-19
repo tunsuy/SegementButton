@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDEAE4121C80040800B0202D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4111C80040800B0202D /* main.m */; };
+		DDEAE4151C80040800B0202D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4141C80040800B0202D /* AppDelegate.m */; };
+		DDEAE4181C80040800B0202D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4171C80040800B0202D /* ViewController.m */; };
+		DDEAE41B1C80040800B0202D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEAE4191C80040800B0202D /* Main.storyboard */; };
+		DDEAE41D1C80040800B0202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEAE41C1C80040800B0202D /* Assets.xcassets */; };
+		DDEAE4201C80040800B0202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEAE41E1C80040800B0202D /* LaunchScreen.storyboard */; };
+		DDEAE42B1C80040800B0202D /* SegementButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE42A1C80040800B0202D /* SegementButtonTests.m */; };
+		DDEAE4361C80040800B0202D /* SegementButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4351C80040800B0202D /* SegementButtonUITests.m */; };
+		DDEAE4451C80044A00B0202D /* SegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4441C80044A00B0202D /* SegementView.m */; };
+		DDEAE4481C818A2000B0202D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE4471C818A2000B0202D /* TableViewController.m */; };
+		DDEAE44B1C819AB600B0202D /* CustomerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAE44A1C819AB600B0202D /* CustomerCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEAE4271C80040800B0202D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEAE4051C80040800B0202D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEAE40C1C80040800B0202D;
+			remoteInfo = SegementButton;
+		};
+		DDEAE4321C80040800B0202D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEAE4051C80040800B0202D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEAE40C1C80040800B0202D;
+			remoteInfo = SegementButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDEAE40D1C80040800B0202D /* SegementButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegementButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEAE4111C80040800B0202D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDEAE4131C80040800B0202D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDEAE4141C80040800B0202D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDEAE4161C80040800B0202D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDEAE4171C80040800B0202D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDEAE41A1C80040800B0202D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDEAE41C1C80040800B0202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDEAE41F1C80040800B0202D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDEAE4211C80040800B0202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEAE4261C80040800B0202D /* SegementButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegementButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEAE42A1C80040800B0202D /* SegementButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegementButtonTests.m; sourceTree = "<group>"; };
+		DDEAE42C1C80040800B0202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEAE4311C80040800B0202D /* SegementButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegementButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEAE4351C80040800B0202D /* SegementButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegementButtonUITests.m; sourceTree = "<group>"; };
+		DDEAE4371C80040800B0202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEAE4431C80044A00B0202D /* SegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegementView.h; sourceTree = "<group>"; };
+		DDEAE4441C80044A00B0202D /* SegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegementView.m; sourceTree = "<group>"; };
+		DDEAE4461C818A2000B0202D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DDEAE4471C818A2000B0202D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DDEAE4491C819AB600B0202D /* CustomerCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCellView.h; sourceTree = "<group>"; };
+		DDEAE44A1C819AB600B0202D /* CustomerCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEAE40A1C80040800B0202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE4231C80040800B0202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE42E1C80040800B0202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEAE4041C80040800B0202D = {
+			isa = PBXGroup;
+			children = (
+				DDEAE40F1C80040800B0202D /* SegementButton */,
+				DDEAE4291C80040800B0202D /* SegementButtonTests */,
+				DDEAE4341C80040800B0202D /* SegementButtonUITests */,
+				DDEAE40E1C80040800B0202D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEAE40E1C80040800B0202D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAE40D1C80040800B0202D /* SegementButton.app */,
+				DDEAE4261C80040800B0202D /* SegementButtonTests.xctest */,
+				DDEAE4311C80040800B0202D /* SegementButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEAE40F1C80040800B0202D /* SegementButton */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAE4131C80040800B0202D /* AppDelegate.h */,
+				DDEAE4141C80040800B0202D /* AppDelegate.m */,
+				DDEAE4431C80044A00B0202D /* SegementView.h */,
+				DDEAE4441C80044A00B0202D /* SegementView.m */,
+				DDEAE4161C80040800B0202D /* ViewController.h */,
+				DDEAE4171C80040800B0202D /* ViewController.m */,
+				DDEAE4491C819AB600B0202D /* CustomerCellView.h */,
+				DDEAE44A1C819AB600B0202D /* CustomerCellView.m */,
+				DDEAE4461C818A2000B0202D /* TableViewController.h */,
+				DDEAE4471C818A2000B0202D /* TableViewController.m */,
+				DDEAE4191C80040800B0202D /* Main.storyboard */,
+				DDEAE41C1C80040800B0202D /* Assets.xcassets */,
+				DDEAE41E1C80040800B0202D /* LaunchScreen.storyboard */,
+				DDEAE4211C80040800B0202D /* Info.plist */,
+				DDEAE4101C80040800B0202D /* Supporting Files */,
+			);
+			path = SegementButton;
+			sourceTree = "<group>";
+		};
+		DDEAE4101C80040800B0202D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAE4111C80040800B0202D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEAE4291C80040800B0202D /* SegementButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAE42A1C80040800B0202D /* SegementButtonTests.m */,
+				DDEAE42C1C80040800B0202D /* Info.plist */,
+			);
+			path = SegementButtonTests;
+			sourceTree = "<group>";
+		};
+		DDEAE4341C80040800B0202D /* SegementButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAE4351C80040800B0202D /* SegementButtonUITests.m */,
+				DDEAE4371C80040800B0202D /* Info.plist */,
+			);
+			path = SegementButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEAE40C1C80040800B0202D /* SegementButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEAE43A1C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButton" */;
+			buildPhases = (
+				DDEAE4091C80040800B0202D /* Sources */,
+				DDEAE40A1C80040800B0202D /* Frameworks */,
+				DDEAE40B1C80040800B0202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegementButton;
+			productName = SegementButton;
+			productReference = DDEAE40D1C80040800B0202D /* SegementButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEAE4251C80040800B0202D /* SegementButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEAE43D1C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButtonTests" */;
+			buildPhases = (
+				DDEAE4221C80040800B0202D /* Sources */,
+				DDEAE4231C80040800B0202D /* Frameworks */,
+				DDEAE4241C80040800B0202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEAE4281C80040800B0202D /* PBXTargetDependency */,
+			);
+			name = SegementButtonTests;
+			productName = SegementButtonTests;
+			productReference = DDEAE4261C80040800B0202D /* SegementButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDEAE4301C80040800B0202D /* SegementButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEAE4401C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButtonUITests" */;
+			buildPhases = (
+				DDEAE42D1C80040800B0202D /* Sources */,
+				DDEAE42E1C80040800B0202D /* Frameworks */,
+				DDEAE42F1C80040800B0202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEAE4331C80040800B0202D /* PBXTargetDependency */,
+			);
+			name = SegementButtonUITests;
+			productName = SegementButtonUITests;
+			productReference = DDEAE4311C80040800B0202D /* SegementButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEAE4051C80040800B0202D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDEAE40C1C80040800B0202D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDEAE4251C80040800B0202D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDEAE40C1C80040800B0202D;
+					};
+					DDEAE4301C80040800B0202D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDEAE40C1C80040800B0202D;
+					};
+				};
+			};
+			buildConfigurationList = DDEAE4081C80040800B0202D /* Build configuration list for PBXProject "SegementButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDEAE4041C80040800B0202D;
+			productRefGroup = DDEAE40E1C80040800B0202D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEAE40C1C80040800B0202D /* SegementButton */,
+				DDEAE4251C80040800B0202D /* SegementButtonTests */,
+				DDEAE4301C80040800B0202D /* SegementButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEAE40B1C80040800B0202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAE4201C80040800B0202D /* LaunchScreen.storyboard in Resources */,
+				DDEAE41D1C80040800B0202D /* Assets.xcassets in Resources */,
+				DDEAE41B1C80040800B0202D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE4241C80040800B0202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE42F1C80040800B0202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEAE4091C80040800B0202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAE44B1C819AB600B0202D /* CustomerCellView.m in Sources */,
+				DDEAE4451C80044A00B0202D /* SegementView.m in Sources */,
+				DDEAE4181C80040800B0202D /* ViewController.m in Sources */,
+				DDEAE4151C80040800B0202D /* AppDelegate.m in Sources */,
+				DDEAE4481C818A2000B0202D /* TableViewController.m in Sources */,
+				DDEAE4121C80040800B0202D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE4221C80040800B0202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAE42B1C80040800B0202D /* SegementButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAE42D1C80040800B0202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAE4361C80040800B0202D /* SegementButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEAE4281C80040800B0202D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEAE40C1C80040800B0202D /* SegementButton */;
+			targetProxy = DDEAE4271C80040800B0202D /* PBXContainerItemProxy */;
+		};
+		DDEAE4331C80040800B0202D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEAE40C1C80040800B0202D /* SegementButton */;
+			targetProxy = DDEAE4321C80040800B0202D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEAE4191C80040800B0202D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEAE41A1C80040800B0202D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEAE41E1C80040800B0202D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEAE41F1C80040800B0202D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEAE4381C80040800B0202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDEAE4391C80040800B0202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEAE43B1C80040800B0202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegementButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDEAE43C1C80040800B0202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegementButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDEAE43E1C80040800B0202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SegementButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegementButton.app/SegementButton";
+			};
+			name = Debug;
+		};
+		DDEAE43F1C80040800B0202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SegementButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegementButton.app/SegementButton";
+			};
+			name = Release;
+		};
+		DDEAE4411C80040800B0202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegementButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegementButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDEAE4421C80040800B0202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegementButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.SegementButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegementButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEAE4081C80040800B0202D /* Build configuration list for PBXProject "SegementButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAE4381C80040800B0202D /* Debug */,
+				DDEAE4391C80040800B0202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEAE43A1C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAE43B1C80040800B0202D /* Debug */,
+				DDEAE43C1C80040800B0202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDEAE43D1C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAE43E1C80040800B0202D /* Debug */,
+				DDEAE43F1C80040800B0202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDEAE4401C80040800B0202D /* Build configuration list for PBXNativeTarget "SegementButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAE4411C80040800B0202D /* Debug */,
+				DDEAE4421C80040800B0202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEAE4051C80040800B0202D /* Project object */;
+}
